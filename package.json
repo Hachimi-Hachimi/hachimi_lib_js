@@ -1,0 +1,21 @@
+{
+  "name": "hachimi_lib",
+  "type": "module",
+  "description": "Common Hachimi components library",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hachimi-Hachimi/hachimi_lib"
+  },
+  "files": [
+    "hachimi_lib_bg.wasm",
+    "hachimi_lib.js",
+    "hachimi_lib.d.ts"
+  ],
+  "main": "hachimi_lib.js",
+  "types": "hachimi_lib.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
